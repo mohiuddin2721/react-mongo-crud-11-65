@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import AddUser from './components/AddUser/AddUser';
@@ -9,7 +8,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='use/add' element={<AddUser></AddUser>}></Route>
+        <Route path='user/add' element={<AddUser></AddUser>}></Route>
       </Routes>
     </div>
   );
